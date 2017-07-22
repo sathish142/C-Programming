@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main()
 {
-char ltr;
-scanf("%c",&ltr);
-if((ltr=='a')||(ltr=='e')||(ltr=='i')||(ltr=='o')||(ltr=='u'))
+char l;
+scanf("%c",&l);
+if((l=='a')||(l=='e')||(l=='i')||(l=='o')||(l=='u')||(l=='A')||(l=='E')||(l=='I')||(l=='O')||(l=='U'))
 printf("vowel");
 else
 printf("consonent");
