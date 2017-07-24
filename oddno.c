@@ -4,7 +4,7 @@ void main()
 int u,l,i;
 scanf("%d%d",&u,&l);
 i=u;
-while(i<l)
+while(i<(l-1))
 {
 i++;
 if(i%2!=0)
